@@ -1,0 +1,12 @@
+            - name: Railway Deploy
+  # You may pin to the exact commit or the version.
+  # uses: bervProject/railway-deploy@28e06ba62ca4186e60db75554ee73dda1e4e5450
+  uses: bervProject/railway-deploy@0.1.2-beta
+  with:
+    # Railway Token for Deployment
+    railway_token: # optional
+    # The specific service target
+    service: 
+    # Detach option in the railway cli option
+    detach: # optional
+          
